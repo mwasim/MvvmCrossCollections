@@ -20,18 +20,18 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="148">
-                    <rect key="frame" x="8" y="42" width="379" height="34"/>
+                    <rect key="frame" x="8" y="89" width="379" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="149">
-                    <rect key="frame" x="8" y="94" width="379" height="30"/>
+                    <rect key="frame" x="8" y="153" width="379" height="30"/>
                     <state key="normal" title="Reset"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="150">
-                    <rect key="frame" x="8" y="144" width="379" height="48"/>
+                    <rect key="frame" x="8" y="234" width="379" height="48"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="48" id="kmt-n3-iHA"/>
+                        <constraint firstAttribute="height" constant="48" id="YtH-ya-4uF"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -40,15 +40,15 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="148" firstAttribute="trailing" secondItem="149" secondAttribute="trailing" id="GQ0-xJ-dpo"/>
-                <constraint firstItem="149" firstAttribute="top" secondItem="148" secondAttribute="bottom" constant="18" id="OtL-Gt-y90"/>
-                <constraint firstItem="149" firstAttribute="trailing" secondItem="150" secondAttribute="trailing" id="WTb-ca-Vm0"/>
-                <constraint firstItem="148" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="8" id="ZTX-qn-Mi7"/>
-                <constraint firstItem="149" firstAttribute="leading" secondItem="150" secondAttribute="leading" id="fAD-SE-EZM"/>
-                <constraint firstItem="148" firstAttribute="top" secondItem="2" secondAttribute="top" constant="42" id="qw2-bv-IiC"/>
-                <constraint firstItem="148" firstAttribute="leading" secondItem="149" secondAttribute="leading" id="rLq-Uf-gwk"/>
-                <constraint firstItem="150" firstAttribute="top" secondItem="149" secondAttribute="bottom" constant="20" id="td6-DK-wiu"/>
-                <constraint firstAttribute="trailing" secondItem="148" secondAttribute="trailing" constant="27" id="uSV-Dj-zW2"/>
+                <constraint firstItem="149" firstAttribute="top" secondItem="148" secondAttribute="bottom" constant="30" id="5a6-P5-xnN"/>
+                <constraint firstItem="149" firstAttribute="leading" secondItem="150" secondAttribute="leading" id="DhS-6G-pOJ"/>
+                <constraint firstAttribute="trailing" secondItem="148" secondAttribute="trailing" constant="27" id="RkY-UM-CaQ"/>
+                <constraint firstItem="150" firstAttribute="top" secondItem="149" secondAttribute="bottom" constant="51" id="Tck-Aa-pVg"/>
+                <constraint firstItem="148" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="8" id="cgQ-sU-krT"/>
+                <constraint firstItem="148" firstAttribute="top" secondItem="2" secondAttribute="top" constant="89" id="lID-43-OeY"/>
+                <constraint firstItem="148" firstAttribute="leading" secondItem="149" secondAttribute="leading" id="s8P-qQ-FXk"/>
+                <constraint firstItem="149" firstAttribute="trailing" secondItem="150" secondAttribute="trailing" id="vbx-75-c2B"/>
+                <constraint firstItem="148" firstAttribute="trailing" secondItem="149" secondAttribute="trailing" id="vxE-Hq-GzW"/>
             </constraints>
             <point key="canvasLocation" x="34" y="54"/>
         </view>
