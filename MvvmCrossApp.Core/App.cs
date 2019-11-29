@@ -13,7 +13,7 @@ namespace MvvmCrossApp.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<HomeViewModel>();
+            RegisterAppStart<TipViewModel>();
         }
     }
 }
