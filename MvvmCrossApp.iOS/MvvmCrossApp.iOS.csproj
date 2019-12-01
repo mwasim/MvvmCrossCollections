@@ -70,6 +70,11 @@
     <Compile Include="Views\HomeView.designer.cs">
       <DependentUpon>HomeView.cs</DependentUpon>
     </Compile>
+    <InterfaceDefinition Include="Views\TipView.xib" />
+    <Compile Include="Views\TipView.cs" />
+    <Compile Include="Views\TipView.designer.cs">
+      <DependentUpon>TipView.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
