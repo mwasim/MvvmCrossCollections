@@ -36,4 +36,13 @@
         android:layout_height="wrap_content"
         local:MvxBind="Text Tip"/>
 
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Total:"/>
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      local:MvxBind="Text Total"/>
+
 </LinearLayout>

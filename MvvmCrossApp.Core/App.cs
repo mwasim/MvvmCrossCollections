@@ -13,7 +13,8 @@ namespace MvvmCrossApp.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<TipViewModel>();
+            RegisterAppStart<MainMenuViewModel>();
+            //RegisterAppStart<PetShopViewModel>();
         }
     }
 }

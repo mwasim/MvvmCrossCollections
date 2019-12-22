@@ -25,6 +25,7 @@ namespace MvvmCrossApp.Core.ViewModels
         private void Recalcuate()
         {
             Tip = _calculationService.TipAmount(SubTotal, Generosity);
+            Total = Tip + SubTotal;
         }
 
         private double _tip;
@@ -33,6 +34,14 @@ namespace MvvmCrossApp.Core.ViewModels
         {
             get => _tip;
             set => SetProperty(ref _tip, value);
+        }
+
+        private double _total;
+
+        public double Total
+        {
+            get => _total;
+            set => SetProperty(ref _total, value);
         }
 
         private double _subTotal;

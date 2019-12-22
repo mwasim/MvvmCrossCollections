@@ -71,6 +71,8 @@
       <DependentUpon>HomeView.cs</DependentUpon>
     </Compile>
     <InterfaceDefinition Include="Views\TipView.xib" />
+    <Compile Include="Views\MainMenuView.cs" />
+    <Compile Include="Views\SmallFixedView.cs" />
     <Compile Include="Views\TipView.cs" />
     <Compile Include="Views\TipView.designer.cs">
       <DependentUpon>TipView.cs</DependentUpon>

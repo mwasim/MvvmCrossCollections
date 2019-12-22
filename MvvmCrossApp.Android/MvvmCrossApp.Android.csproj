@@ -63,7 +63,16 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreen.cs" />
+    <Compile Include="Views\ExpandableView.cs" />
     <Compile Include="Views\HomeView.cs" />
+    <Compile Include="Views\LargeDynamicView.cs" />
+    <Compile Include="Views\LargeFixedView.cs" />
+    <Compile Include="Views\MainMenuView.cs" />
+    <Compile Include="Views\PetShopView.cs" />
+    <Compile Include="Views\PolymorphicListItemTypesView.cs" />
+    <Compile Include="Views\SmallDynamicView.cs" />
+    <Compile Include="Views\SmallFixedView.cs" />
+    <Compile Include="Views\SpecificPositionsView.cs" />
     <Compile Include="Views\TipView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +114,9 @@
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Xamarin.FFImageLoading">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MvvmCrossApp.Core\MvvmCrossApp.Core.csproj">
@@ -124,6 +136,66 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\TipView.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\KittenCell.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PetShopView.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PageFixedView.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\listitem_kitten.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PageMainMenuView.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\listitem_mainmenu.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PageDynamicView.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PagePolymorphicView.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\listitem_dog.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PageSpecificPositions.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PageExpandableView.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\listitem_expandalegroup.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

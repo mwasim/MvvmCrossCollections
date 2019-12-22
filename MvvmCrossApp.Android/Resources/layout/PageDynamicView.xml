@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonPanel">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add One"
+            local:MvxBind="Click AddKittenCommand"/>
+
+        <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Remove Item"
+          local:MvxBind="Click KillKittensCommand"/>
+
+    </LinearLayout>
+
+  <Mvx.MvxListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/buttonPanel"
+    local:MvxItemTemplate="@layout/listitem_kitten"
+    local:MvxBind="ItemsSource Kittens"/>
+
+</RelativeLayout>
