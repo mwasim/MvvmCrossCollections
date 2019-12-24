@@ -88,6 +88,7 @@
     <Compile Include="Views\PolymorphicListItemTypesView.cs" />
     <Compile Include="Views\SmallDynamicView.cs" />
     <Compile Include="Views\SmallFixedView.cs" />
+    <Compile Include="Views\SpecificPositionsView.cs" />
     <Compile Include="Views\TipView.cs" />
     <Compile Include="Views\TipView.designer.cs">
       <DependentUpon>TipView.cs</DependentUpon>
