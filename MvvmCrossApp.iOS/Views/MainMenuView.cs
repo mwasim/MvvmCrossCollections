@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Drawing;
 using UIKit;
 using Foundation;
 using MvvmCross.Binding.BindingContext;

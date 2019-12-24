@@ -67,16 +67,26 @@
     <Content Include="Entitlements.plist" />
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Views\HomeView.xib" />
+    <Compile Include="Views\Base\BaseDynamicKittenTableView.cs" />
+    <Compile Include="Views\Base\BaseExpandableTableView.cs" />
+    <Compile Include="Views\Base\BaseKittenTableView.cs" />
+    <Compile Include="Views\Cells\DogTableViewCell.cs" />
+    <Compile Include="Views\Cells\HeaderTableViewCell.cs" />
     <Compile Include="Views\Cells\KittenTableViewCell.cs" />
     <Compile Include="Views\Cells\KittenTableViewCell.designer.cs">
       <DependentUpon>KittenTableViewCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\ExpandableView.cs" />
     <Compile Include="Views\HomeView.cs" />
     <Compile Include="Views\HomeView.designer.cs">
       <DependentUpon>HomeView.cs</DependentUpon>
     </Compile>
     <InterfaceDefinition Include="Views\TipView.xib" />
+    <Compile Include="Views\LargeDynamicView.cs" />
+    <Compile Include="Views\LargeFixedView.cs" />
     <Compile Include="Views\MainMenuView.cs" />
+    <Compile Include="Views\PolymorphicListItemTypesView.cs" />
+    <Compile Include="Views\SmallDynamicView.cs" />
     <Compile Include="Views\SmallFixedView.cs" />
     <Compile Include="Views\TipView.cs" />
     <Compile Include="Views\TipView.designer.cs">

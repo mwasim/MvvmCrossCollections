@@ -1,24 +1,18 @@
-﻿using System;
-using System.Drawing;
-
-using CoreFoundation;
-using UIKit;
-using Foundation;
-using MvvmCross.Binding.BindingContext;
-using MvvmCross.Platforms.Ios.Binding.Views;
-using MvvmCross.Platforms.Ios.Views;
-using MvvmCrossApp.Core.ViewModels;
-using MvvmCrossApp.iOS.Views.Cells;
+﻿using Foundation;
+using MvvmCrossApp.iOS.Views.Base;
 
 namespace MvvmCrossApp.iOS.Views
 {
     [Register("SmallFixedView")]
-    public class SmallFixedView : MvxTableViewController
+    public class SmallFixedView : BaseKittenTableView
     {
         public SmallFixedView()
         {
+            Title = "Small Fixed";
         }
 
+        //The below work is now being done in the base class
+        /*
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -26,11 +20,13 @@ namespace MvvmCrossApp.iOS.Views
             //MvxImageViewLoader 
 
             // Perform any additional setup after loading the view
-            
+
             //This is built-in standard mvx table view source
             //var source = new MvxStandardTableViewSource(TableView, "TitleText Name;ImageUrl ImageUrl");
 
             //This is simple tableview source, here we can pass in custom tableview cell
+            //The below work is now being done in the base class
+            
             var source = new MvxSimpleTableViewSource(TableView, typeof(KittenTableViewCell), nameof(KittenTableViewCell));
             TableView.Source = source;
             TableView.RowHeight = 100f;
@@ -40,6 +36,7 @@ namespace MvvmCrossApp.iOS.Views
             set.Apply();
 
             TableView.ReloadData(); //just give a nudge to table to reload the data
-        }
+            
+        }*/
     }
 }
