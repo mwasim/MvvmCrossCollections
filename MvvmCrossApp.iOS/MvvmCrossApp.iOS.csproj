@@ -93,11 +93,6 @@
     <Compile Include="Views\TipView.designer.cs">
       <DependentUpon>TipView.cs</DependentUpon>
     </Compile>
-    <InterfaceDefinition Include="Views\Cells\KittenCell.xib" />
-    <Compile Include="Views\Cells\KittenCell.cs" />
-    <Compile Include="Views\Cells\KittenCell.designer.cs">
-      <DependentUpon>KittenCell.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
