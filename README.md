@@ -7,7 +7,7 @@ The repo contains various MvvmCross based collections examples on both Android a
 MvxCachedImageView allows you to easily integrate with MvvmCross on both Android and iOS.
 
 ## NuGet Packages Used specifically for iOS
-[FFImageLoading - Fast & Furious Image Loading](https://github.com/FluentLayout/Cirrious.FluentLayout)
+[Cirrious.FluentLayout](https://github.com/FluentLayout/Cirrious.FluentLayout)
 
 FluentLayout provides an easy, fluent API for creating constraint-based layouts in Xamarin.iOS.
 
